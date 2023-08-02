@@ -1,0 +1,22 @@
+{
+    "name": "patri/s1_t7",
+
+    "autoload": {
+        "psr-4": {
+            "Patri\\S1T7\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patri",
+            "email": "pmanzanastomas@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload-dev": {
+        "psr-4": {
+          "Tests\\": "tests/"
+        }
+    }
+}
