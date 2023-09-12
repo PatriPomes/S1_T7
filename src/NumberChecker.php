@@ -1,5 +1,9 @@
 <?php
-namespace App;
+
+namespace Patri;
+
+use InvalidArgumentException;
+
 class NumberChecker  {
 
 	public function __construct(private int $number){}

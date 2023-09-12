@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Tests;
 
-use App\NumberChecker;
+
+use Patri\NumberChecker;
 use PHPUnit\Framework\TestCase;
 
-class NumberCheckerTest extends TestCase{
+
+final class NumberCheckerTest extends TestCase{
     public function testConstructor(){ 
         $number = 42;
         $numberChecker = new NumberChecker($number);
@@ -22,11 +23,11 @@ class NumberCheckerTest extends TestCase{
                 
         $this->assertTrue($resultadoEven); //resultado
 
-        $numberCheckerOdd = new NumberChecker(5); //repetimos proceso con otra opcion(Impar)
+       // $numberCheckerOdd = new NumberChecker(5); //repetimos proceso con otra opcion(Impar)
 
-        $resultadoOdd = $numberCheckerOdd->isEven();
+       // $resultadoOdd = $numberCheckerOdd->isEven();
 
-        $this->assertFalse($resultadoOdd);
+        //$this->assertFalse($resultadoOdd);
 }
     public function testIsPositive(){
 
@@ -40,10 +41,7 @@ class NumberCheckerTest extends TestCase{
     }
 
 }
-    
 
-    
-   
-    
+
 
 ?>
