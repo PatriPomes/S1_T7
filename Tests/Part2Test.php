@@ -5,7 +5,7 @@ namespace Patri;
 
 use PHPUnit\Framework\TestCase;
 
-final class NotaTest extends TestCase {
+final class Part2Test extends TestCase {
     public function testVerificarNota_PrimeraDivision() {
         $this->assertEquals("Primera división", grau(60));
         $this->assertEquals("Primera división", grau(71));
